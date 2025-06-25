@@ -1624,6 +1624,8 @@ section,
   overflow: hidden;
   border-right: 3px solid var(--background-color);
   border-bottom: 3px solid var(--background-color);
+  width: 350px;
+  height: 180px
 }
 
 .gallery .gallery-item img {
@@ -1712,6 +1714,47 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.starter-section h3 {
+  color:var(--accent-color);
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+
+}
+.starter-section img{
+  width: 100%;
+  border-radius: 12px;
+}
+.starter-section p{
+  text-align: justify;
+  text-transform: capitalize;
+}
+.starter-section .why-box {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  padding: 30px;
+  border-radius: 4px;
+  width: 100%;
+}
+.starter-section .why-box h3 {
+  color: var(--contrast-color);
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.starter-section .why-box p {
+  margin-bottom: 30px;
+}
+.starter-section .php-email-form button[type=submit] {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 36px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.starter-section .contact .php-email-form button[type=submit]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
